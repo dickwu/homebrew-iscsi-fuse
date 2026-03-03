@@ -8,7 +8,6 @@ class IscsiFuse < Formula
   sha256 "0d5187fc38eb266096186ef1a28d70c7942d40aff9a7f6dc10308557d15d21d1"
 
   depends_on :macos
-  depends_on cask: "macfuse"
 
   def install
     bin.install "iscsi-fuse"
