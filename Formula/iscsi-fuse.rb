@@ -1,11 +1,11 @@
 class IscsiFuse < Formula
   desc "Mount iSCSI targets as FUSE filesystems on macOS"
   homepage "https://github.com/dickwu/iscsi-fuse"
-  version "0.3.0"
+  version "0.4.0"
   license "AGPL-3.0-or-later"
 
   url "https://github.com/dickwu/iscsi-fuse/releases/download/v#{version}/iscsi-fuse-v#{version}-macos-arm64.tar.gz"
-  sha256 "798767af9eced824b41c7a4f58112bda44e7dafcb1bf3c087762671f75fe43ed"
+  sha256 "c137c76da42ba80d35a6abd24cf2e02cada9459cb33aecfea692a7b77c77b3c5"
 
   depends_on :macos
 
